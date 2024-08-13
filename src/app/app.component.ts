@@ -1,10 +1,20 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'hinv-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  // template: `<h1>Hello World from Inline Template</h1>
+  //   <p>Angular is Awesome!</p> `,
+  styleUrl: './app.component.scss',
+  // styles: [
+  //   `
+  //     h1 {
+  //       color: red;
+  //     }
+  //   `,
+  // ],
 })
 export class AppComponent {
   title = 'hotelInventoryApp';
+  role = 'Admin';
 }
